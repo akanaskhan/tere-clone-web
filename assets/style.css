@@ -215,16 +215,16 @@ p {
 }
 .hero-btns {
   justify-content: start;
-  width: 500px;
+  /* width: 500px; */
   
 }
-/* .hero-btns img {
+.hero-btns img {
   width: 90%;
-} */
+}
 .hero-btns>.play-download,.apple-download{
   background-color: black;
   color: white;
-  width: 90%;
+  width: 200px;
   height: 50px;
   font-size: 20px;
   border-radius: 5px;
@@ -492,8 +492,8 @@ p {
   animation-timing-function: linear;
   animation-duration: 2.5s;
 }
-footer> p{
+/* footer> p{
   color: #75BF7A;
   font-weight:lighter;
   
-}
+} */
