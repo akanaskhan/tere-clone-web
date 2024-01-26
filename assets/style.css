@@ -218,9 +218,9 @@ p {
   /* width: 500px; */
   
 }
-.hero-btns img {
+/* .hero-image img {
   width: 90%;
-}
+} */
 .hero-btns>.play-download,.apple-download{
   background-color: black;
   color: white;
@@ -231,6 +231,9 @@ p {
 }
 .play-download{
   margin-right: 10px;
+}
+.apple-download{
+  margin: 0;
 }
 .apple-download> i{
   color: white;
@@ -370,6 +373,7 @@ p {
 }
 .elippse {
   z-index: -1s;
+  
 }
 /*!============= tere benefits styling starts =============*/
 
@@ -431,6 +435,7 @@ p {
 .benefit-img img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 /*!============= footer styling starts =============*/
 
