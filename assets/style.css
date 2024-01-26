@@ -1,18 +1,21 @@
-@font-face {
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* @font-face {
   font-family: gilroy;
   src: url(/fonts/GilroyBold.ttf);
 }
 @font-face {
   font-family: monsterrat;
   src: url(/fonts/Montserrat-Bold.ttf);
-}
+} */
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
-  font-family: gilroy,monsterrat;
+  font-family: 'Montserrat', sans-serif;
   border: none;
   outline: none;
   color: black;
@@ -488,4 +491,9 @@ p {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-duration: 2.5s;
+}
+footer> p{
+  color: #75BF7A;
+  font-weight:lighter;
+  
 }
