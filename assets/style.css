@@ -206,16 +206,36 @@ p {
   font-weight: bold;
   font-size: 3.5rem;
 }
-
 .hero-content p {
   color: var(--textColor);
   margin: 1rem 0 3rem;
 }
 .hero-btns {
   justify-content: start;
+  width: 500px;
+  
 }
-.hero-btns img {
+/* .hero-btns img {
   width: 90%;
+} */
+.hero-btns>.play-download,.apple-download{
+  background-color: black;
+  color: white;
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.play-download{
+  margin-right: 10px;
+}
+.apple-download> i{
+  color: white;
+  margin-right: 15px;
+}
+.play-download > i{
+  color: white;
+  margin-right: 10px;
 }
 .hero-content {
   justify-content: end;
