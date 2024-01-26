@@ -66,6 +66,7 @@ html {
 .main-container,
 .container {
   background-color: var(--bgColor);
+  text-align: center;
 }
 
 .section {
