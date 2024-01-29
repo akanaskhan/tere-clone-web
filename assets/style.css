@@ -209,6 +209,7 @@ p {
 .hero-content h1 {
   font-weight: bold;
   font-size: 3.5rem;
+  text-align: left;
 }
 .hero-content p {
   color: var(--textColor);
